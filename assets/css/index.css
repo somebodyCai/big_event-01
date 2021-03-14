@@ -1,0 +1,43 @@
+.layui-footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon {
+    margin-right: 10px;
+    margin-left: 16px;
+}
+
+.userifo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    user-select: none;
+}
+
+.userifo img{
+    width: 40px;
+    height: 40px;
+}
+
+.layui-side-scroll .userifo {
+    border-bottom: 1px solid #000;
+}
+
+
+.text-avatar{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #009688;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    vertical-align: middle;
+}
