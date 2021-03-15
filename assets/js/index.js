@@ -29,8 +29,8 @@ function getuserIfo() {
         // 请求密钥配置
         // headers: { Authorization: localStorage.getItem('token') },
         success: function (res) {
-            console.log(res);
-            console.log(1);
+            // console.log(res);
+            // console.log(1);
             if (res.status != 0) {
                 // 弹出获取失败信息
                 return layui.layer.msg(res.message, { icon: 5 })
