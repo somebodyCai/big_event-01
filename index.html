@@ -26,6 +26,7 @@
                 <li class="layui-nav-item">
                     <a href="javascript:;" class="userifo">
                         <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+                        <span class="text-avatar">A</span>
                         个人中心
                     </a>
                     <dl class="layui-nav-child">
@@ -34,7 +35,7 @@
                         <dd><a href="javascript:;">重置密码</a></dd>
                     </dl>
                 </li>
-                <li class="layui-nav-item"><a href="javascript:;">
+                <li class="layui-nav-item"><a id="btnlogout" href="javascript:;">
                     <span class="iconfont icon-tuichu"></span>
                     退出</a></li>
             </ul>
@@ -51,7 +52,7 @@
 
                 <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
                 <ul class="layui-nav layui-nav-tree" lay-filter="test" lay-shrink='all'>
-                    <li class="layui-nav-item"><a href="javascript:;">
+                    <li class="layui-nav-item layui-this"><a href="javascript:;" target="fm">
                         <span class="iconfont icon-home"></span>
                         首页</a></li>
                     <li class="layui-nav-item layui-nav-itemed">
@@ -94,7 +95,8 @@
 
         <div class="layui-body">
             <!-- 内容主体区域 -->
-            <div style="padding: 15px;">内容主体区域</div>
+            <iframe src="/home/dashboard.html" frameborder="0" name="fm"></iframe>
+           
         </div>
 
         <div class="layui-footer">
@@ -102,16 +104,7 @@
             © somebodyCai - 大事件_后台管理系统
         </div>
     </div>
-    <script src="../src/layui.js"></script>
-    <script>
-        //JavaScript代码区域
-        layui.use('element', function () {
-            var element = layui.element;
-
-        });
-    </script>
-
-
+    
 
     <script src="/assets/lib/jquery.js"></script>
 
